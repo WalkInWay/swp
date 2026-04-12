@@ -18,7 +18,28 @@
 #
 ---
 include:
+  # keyboard: cradio sweep
   - board: nrfmicro_13
-    shield: scylla_left
+    shield: cradio_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    #snippet: zmk-usb-logging
   - board: nrfmicro_13
-    shield: scylla_right
+    shield: cradio_right
+  - board: nrfmicro_13
+    shield: settings_reset
+
+  # - board: nice_nano_v2
+  #   shield: cradio_left
+  #   snippet: studio-rpc-usb-uart
+  #   cmake-args: -DCONFIG_ZMK_STUDIO=y
+  #   #snippet: zmk-usb-logging
+  # - board: nice_nano_v2
+  #   shield: cradio_right
+  # - board: nice_nano_v2
+  #   shield: settings_reset
+
+  # - board: nrfmicro_13
+  #   shield: scylla_left
+  # - board: nrfmicro_13
+  #   shield: scylla_right
