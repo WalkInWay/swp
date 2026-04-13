@@ -40,7 +40,7 @@
 };
 
 / {
-    chosen { zmk,charmap = &charmap_us; };
+    // chosen { zmk,charmap = &charmap_us; };
 
     behaviors {
         hml: home_row_mod_left {
