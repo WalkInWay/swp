@@ -19,14 +19,14 @@
 ---
 include:
   # keyboard: cradio sweep
-  - board: nrfmicro_13
+  - board: promicro_nrf52840
     shield: cradio_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     #snippet: zmk-usb-logging
-  - board: nrfmicro_13
+  - board: promicro_nrf52840
     shield: cradio_right
-  - board: nrfmicro_13
+  - board: promicro_nrf52840
     shield: settings_reset
 
   # - board: nice_nano_v2
