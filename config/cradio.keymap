@@ -88,7 +88,7 @@
         yo {
             bindings = <&kp RU_CYRILLIC_IO>;
             key-positions = <3 4>;
-            layers = <1 0>;
+            layers = <1>;
         };
 
         hrdsgn {
@@ -218,10 +218,10 @@
         num_nav {
             display-name = "NUM & NAVIGATION";
             bindings = <
-&kp ESC       &kp NUMBER_7        &kp NUMBER_8         &kp NUMBER_9         &none     &kp TAB        &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT
-&kp LGUI      &hml LALT NUMBER_4  &hml LSHFT NUMBER_5  &hml LCTRL NUMBER_6  &none     &kp BACKSPACE  &kp RCTRL  &kp RSHIFT     &kp RALT     &kp RGUI
-&kp NUMBER_0  &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3         &none     &kp DELETE     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END
-                                                       &trans               &trans    &mo 6          &mo 5
+&kp ESC       &kp NUMBER_7        &kp NUMBER_8         &kp NUMBER_9         &none     &kp LEFT  &kp DOWN   &kp UP      &kp RIGHT  &kp BACKSPACE
+&kp LGUI      &hml LALT NUMBER_4  &hml LSHFT NUMBER_5  &hml LCTRL NUMBER_6  &none     &none     &kp RCTRL  &kp RSHIFT  &kp RALT   &kp RGUI
+&kp NUMBER_0  &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3         &none     &kp HOME  &kp PG_DN  &kp PG_UP   &kp END    &kp DELETE
+                                                       &trans               &trans    &mo 6     &mo 5
             >;
         };
 
