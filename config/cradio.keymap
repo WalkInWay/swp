@@ -195,7 +195,7 @@
             >;
         };
 
-        syn_en {
+        sym_en {
             display-name = "Symbols";
             bindings = <
 &kp TILDE       &kp LT          &kp EQUAL         &kp GT           &kp GRAVE    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
@@ -208,10 +208,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&en TILDE               &en LT          &kp EQUAL         &en GT           &en GRAVE    &en CARET  &en LBKT  &kp UNDER           &en RBKT    &en DLLR
-&hml LGUI RU_BACKSLASH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS     &kp PRCNT  &en LBRC  &hmr RSHFT RU_SEMI  &en RBRC    &hmr RGUI EXCL
-&en HASH                &kp STAR        &kp RU_COLON      &kp RU_FSLH      &en AMPS     &en AT     &en PIPE  &kp RU_COMMA        &kp RU_DOT  &kp RU_QMARK
-                                                          &mo 5            &mo 6        &trans     &trans
+&kp RU_TILDE       &kp RU_LT          &kp RU_EQUAL         &kp RU_GT           &kp RU_GRAVE  &kp RU_CARET  &kp RU_LBKT         &kp RU_UNDER        &kp RU_RBKT        &kp RU_DLLR
+&hml LGUI RU_BSLH  &hml LALT RU_LPAR  &hml LSHFT RU_MINUS  &hml LCTRL RU_RPAR  &kp RU_PLUS   &kp RU_PRCNT  &hmr RCTRL RU_LBRC  &hmr RSHFT RU_SEMI  &hmr LALT RU_RBRC  &hmr RGUI RU_EXCL
+&kp RU_HASH        &kp RU_STAR        &kp RU_COLON         &kp RU_FSLH         &kp RU_AMPS   &kp RU_AT     &kp RU_PIPE         &kp RU_COMMA        &kp RU_DOT         &kp RU_QMARK
+                                                           &mo 5               &mo 6         &trans        &trans
             >;
         };
 
