@@ -87,19 +87,19 @@
 
         yo {
             bindings = <&kp RU_CYRILLIC_IO>;
-            key-positions = <3 4>;
+            key-positions = <4 12>;
             layers = <1>;
         };
 
         hrdsgn {
             bindings = <&kp RU_CYRILLIC_HARD_SIGN>;
-            key-positions = <25 26>;
+            key-positions = <26 17>;
             layers = <1>;
         };
 
         ha {
             bindings = <&kp RU_CYRILLIC_HA>;
-            key-positions = <9 8>;
+            key-positions = <17 8>;
             layers = <1>;
         };
 
@@ -208,10 +208,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&kp RU_TILDE       &kp RU_LT          &kp RU_EQUAL         &kp RU_GT           &kp RU_GRAVE  &kp RU_CARET  &kp RU_LBKT         &kp RU_UNDER        &kp RU_RBKT        &kp RU_DLLR
-&hml LGUI RU_BSLH  &hml LALT RU_LPAR  &hml LSHFT RU_MINUS  &hml LCTRL RU_RPAR  &kp RU_PLUS   &kp RU_PRCNT  &hmr RCTRL RU_LBRC  &hmr RSHFT RU_SEMI  &hmr LALT RU_RBRC  &hmr RGUI RU_EXCL
-&kp RU_HASH        &kp RU_STAR        &kp RU_COLON         &kp RU_FSLH         &kp RU_AMPS   &kp RU_AT     &kp RU_PIPE         &kp RU_COMMA        &kp RU_DOT         &kp RU_QMARK
-                                                           &mo 5               &mo 6         &trans        &trans
+&kp RU_TILDE       &kp RU_LT          &kp RU_EQUAL         &kp RU_GT           &kp RU_GRAVE    &kp RU_CARET  &kp RU_LBKT         &kp RU_UNDER        &kp RU_RBKT        &kp RU_DLLR
+&hml LGUI RU_BSLH  &hml LALT RU_LPAR  &hml LSHFT RU_MINUS  &hml LCTRL RU_RPAR  &kp RU_PLUS     &kp RU_PRCNT  &hmr RCTRL RU_LBRC  &hmr RSHFT RU_SEMI  &hmr LALT RU_RBRC  &hmr RGUI RU_EXCL
+&kp RU_HASH        &kp RU_STAR        &kp RU_COLON         &kp RU_FSLH         &kp RU_AMPS     &kp RU_AT     &kp RU_PIPE         &kp RU_COMMA        &kp RU_DOT         &kp RU_QMARK
+                                                           &mo 5               &mo 6           &trans        &trans
             >;
         };
 
