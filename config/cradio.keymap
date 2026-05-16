@@ -198,38 +198,38 @@
         sym_en {
             display-name = "Symbols";
             bindings = <
-&kp TILDE       &kp LT          &kp EQUAL         &kp GT           &kp GRAVE    &kp CARET  &kp LBKT         &kp UNDER        &kp RBKT        &kp DLLR
-&hml LGUI BSLH  &hml LALT LPAR  &hml LSHFT MINUS  &hml LCTRL RPAR  &kp PLUS     &kp PRCNT  &hmr RCTRL LBRC  &hmr RSHFT SEMI  &hmr LALT RBRC  &hmr RGUI EXCL
-&kp HASH        &kp STAR        &kp COLON         &kp FSLH         &kp AMPS     &kp AT     &kp PIPE         &kp COMMA        &kp DOT         &kp QMARK
-                                                  &mo 5            &mo 6        &trans     &trans
+&kp LBKT        &kp RBKT        &kp LT           &kp GT           &kp DLLR     &kp GRAVE    &kp DQT         &kp SQT           &kp ASTRK        &kp CARET
+&hml LGUI LBRC  &hml LALT RBRC  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp TILDE    &kp PERCENT  &hmr RCTRL DOT  &hmr RSHFT COMMA  &hmr LALT QMARK  &hmr RGUI EXCL
+&kp BSLH        &kp FSLH        &kp UNDER        &kp HASH         &kp AMPS     &kp AT       &kp COLON       &kp SEMI          &kp PIPE         &kp MINUS
+                                                 &mo 5            &mo 6        &trans       &trans
             >;
         };
 
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&kp RU_TILDE       &kp RU_LT          &kp RU_EQUAL         &kp RU_GT           &kp RU_GRAVE    &kp RU_CARET  &kp RU_LBKT         &kp RU_UNDER        &kp RU_RBKT        &kp RU_DLLR
-&hml LGUI RU_BSLH  &hml LALT RU_LPAR  &hml LSHFT RU_MINUS  &hml LCTRL RU_RPAR  &kp RU_PLUS     &kp RU_PRCNT  &hmr RCTRL RU_LBRC  &hmr RSHFT RU_SEMI  &hmr LALT RU_RBRC  &hmr RGUI RU_EXCL
-&kp RU_HASH        &kp RU_STAR        &kp RU_COLON         &kp RU_FSLH         &kp RU_AMPS     &kp RU_AT     &kp RU_PIPE         &kp RU_COMMA        &kp RU_DOT         &kp RU_QMARK
-                                                           &mo 5               &mo 6           &trans        &trans
+&kp RU_LBKT        &kp RU_RBKT        &kp RU_LT           &kp RU_GT           &kp RU_DLLR     &kp RU_GRAVE    &kp RU_DQT         &kp RU_SQT           &kp RU_ASTRK        &kp RU_CARET
+&hml LGUI RU_LBRC  &hml LALT RU_RBRC  &hml LSHFT RU_LPAR  &hml LCTRL RU_RPAR  &kp RU_TILDE    &kp RU_PERCENT  &hmr RCTRL RU_DOT  &hmr RSHFT RU_COMMA  &hmr LALT RU_QMARK  &hmr RGUI RU_EXCL
+&kp RU_BSLH        &kp RU_FSLH        &kp RU_UNDER        &kp RU_HASH         &kp RU_AMPS     &kp RU_AT       &kp RU_COLON       &kp RU_SEMI          &kp RU_PIPE         &kp RU_MINUS
+                                                          &mo 5               &mo 6           &trans          &trans
             >;
         };
 
         num_nav {
             display-name = "NUM & NAVIGATION";
             bindings = <
-&kp ESC       &kp NUMBER_7        &kp NUMBER_8         &kp NUMBER_9         &none     &kp TAB        &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT
-&kp LGUI      &hml LALT NUMBER_4  &hml LSHFT NUMBER_5  &hml LCTRL NUMBER_6  &none     &kp BACKSPACE  &kp RCTRL  &kp RSHIFT     &kp RALT     &kp RGUI
-&kp NUMBER_0  &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3         &none     &kp DELETE     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END
-                                                       &trans               &trans    &mo 6          &mo 5
+&kp ESC          &kp NUMBER_7        &kp NUMBER_8         &kp NUMBER_9         &kp PLUS     &kp TAB        &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT
+&hml LGUI SLASH  &hml LALT NUMBER_4  &hml LSHFT NUMBER_5  &hml LCTRL NUMBER_6  &kp MINUS    &kp BACKSPACE  &kp RCTRL  &kp RSHIFT     &kp RALT     &kp RGUI
+&kp NUMBER_0     &kp NUMBER_1        &kp NUMBER_2         &kp NUMBER_3         &kp EQUAL    &kp DELETE     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END
+                                                          &trans               &trans       &mo 6          &mo 5
             >;
         };
 
         adj {
             display-name = "Adjust";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &none        &kp C_MUTE    &kp C_PREV
-&kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1    &bt BT_SEL 3  &kp C_BRI_UP   &none        &kp C_VOL_UP  &kp C_PP
+&kp F1  &kp F2   &kp F3   &kp F4   &bt BT_SEL 0    &bt BT_SEL 2  &out OUT_TOG   &kp F13      &kp C_MUTE    &kp C_PREV
+&kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 1    &bt BT_SEL 3  &kp C_BRI_UP   &kp F14      &kp C_VOL_UP  &kp C_PP
 &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_CLR      &bt BT_SEL 4  &kp C_BRI_DEC  &bootloader  &kp C_VOL_DN  &kp C_NEXT
                           &trans   &trans          &trans        &trans
             >;
@@ -238,10 +238,10 @@
         mouse {
             display-name = "Mouse";
             bindings = <
-&none     &mkp MB4  &mkp MCLK   &mkp MB5   &none     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
-&kp LGUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none     &none     &none       &none      &none     &mkp MB4        &mkp LCLK       &mkp MCLK     &mkp RCLK        &mkp MB5
-                                &trans     &trans    &trans          &trans
+&none     &mkp MB4  &mkp MCLK   &mkp MB5   &none     &none     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT
+&kp LGUI  &kp LALT  &kp LSHIFT  &kp LCTRL  &none     &none     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none     &none     &none       &none      &none     &mkp MB4  &mkp LCLK       &mkp MCLK       &mkp RCLK     &mkp MB5
+                                &trans     &trans    &trans    &trans
             >;
         };
     };
