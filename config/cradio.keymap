@@ -198,7 +198,7 @@
         sym_en {
             display-name = "Symbols";
             bindings = <
-&kp LBKT        &kp RBKT        &kp LT           &kp GT           &kp DLLR     &kp GRAVE    &kp DQT         &kp SQT           &kp ASTRK        &kp CARET
+&kp LBKT        &kp RBKT        &kp LT           &kp GT           &kp DLLR     &kp GRAVE    &kp SQT         &kp DQT           &kp ASTRK        &kp CARET
 &hml LGUI LBRC  &hml LALT RBRC  &hml LSHFT LPAR  &hml LCTRL RPAR  &kp TILDE    &kp PERCENT  &hmr RCTRL DOT  &hmr RSHFT COMMA  &hmr LALT QMARK  &hmr RGUI EXCL
 &kp BSLH        &kp FSLH        &kp UNDER        &kp HASH         &kp AMPS     &kp AT       &kp COLON       &kp SEMI          &kp PIPE         &kp MINUS
                                                  &mo 5            &mo 6        &trans       &trans
@@ -208,9 +208,9 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&kp RU_LBKT        &kp RU_RBKT        &kp RU_LT           &kp RU_GT           &kp RU_DLLR     &kp RU_GRAVE    &kp RU_DQT         &kp RU_SQT           &kp RU_ASTRK        &kp RU_CARET
+&kp RU_LBKT        &kp RU_RBKT        &kp RU_LT           &kp RU_GT           &kp RU_DLLR     &kp RU_GRAVE    &kp RU_SQT         &kp RU_DQT           &kp RU_ASTRK        &kp RU_CARET
 &hml LGUI RU_LBRC  &hml LALT RU_RBRC  &hml LSHFT RU_LPAR  &hml LCTRL RU_RPAR  &kp RU_TILDE    &kp RU_PERCENT  &hmr RCTRL RU_DOT  &hmr RSHFT RU_COMMA  &hmr LALT RU_QMARK  &hmr RGUI RU_EXCL
-&kp RU_BSLH        &kp RU_FSLH        &kp RU_UNDER        &kp RU_HASH         &kp RU_AMPS     &kp RU_AT       &kp RU_COLON       &kp RU_SEMI          &kp RU_PIPE         &kp RU_MINUS
+&en BSLH           &kp RU_FSLH        &kp RU_UNDER        &kp RU_HASH         &kp RU_AMPS     &kp RU_AT       &kp RU_COLON       &kp RU_SEMI          &kp RU_PIPE         &kp RU_MINUS
                                                           &mo 5               &mo 6           &trans          &trans
             >;
         };
